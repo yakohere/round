@@ -8,7 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Round</title>
 </head>
 
@@ -17,40 +21,92 @@
         <div class="yellow-box"></div>
         <nav>
             <div class="logo">MyShop</div>
-            <div class="link">Catalog</div>
-            <div class="link">Search</div>
-        </nav>
+            <div class="menu">
+                <div id="link">
+                    <img src="images/img-catalog.png">
+                    <p>Catalog</p>
+                </div>
+                <div id="link">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <p>Search</p>
+                </div>
+            </div>
+        </nav> 
+
         <div id="text">
             Winter <br/>
             <span>2021</span>
         </div>
     </div>
+
     <div id="sidebar">
         <nav>
             <div class="link">Account</div>
-            <div class="link">Cart</div>
+            <div class="link">
+                <div class="cart">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <a href="#">Cart</a>
+                </div>
+            </div>
         </nav>
+
         <div class="recomendation">
-            <h4>Man Hoody</h4>
+            <div>
+            <h3>Man Hoody</h3 >
             <p>Best collection for 2021</p>
-            <p>View</p>
+            </div>
+
+            <div class="view">
+                <p>View</p>
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </div>
         </div>
+
         <img src="images/yellow.png">
         <div class="social_links">
-            <p>Facebook</p>
-            <p>Instagram</p>
+                <div id="media_link">
+                    <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                    <p>Facebook</p>
+                </div>
+
+                <div id="media_link">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <p>Instagram</p>
+                </div>
         </div>
     </div>
-    <div id="scroll">
-        <p>
-            Scroll <br/>
-            Down 
-        </p>
-        <img src="images/mouse.png">
-    </div>
-    <div id="clothes"></div>
-    <div id="feedback"></div>
-    <img id="man" src="images/man.png">
-</body>
 
+    <div id="scroll">
+        <p>Scroll <br/>Down </p>
+        <img src="images/mouse.jpg">
+    </div>
+
+    <div id="clothes">
+        <div class="container">
+            <div class="box">
+                <h3>N E W C O L L E C T I O N </h3>
+                <h4>NEW SUIT</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing .</p>
+            </div>
+            <div class="categories">
+                <div id="option">QNT</div>
+                <div id="option" >SIZE</div>
+                <div id="cost">$299</div>
+            </div>
+        </div>
+    </div>
+
+    <img id="man" src="images/man.png">
+
+    <div id="feedback">
+        <div class="report">
+            <img src="images/avatar.png">
+            <div class="avatar">
+                <h3>Aston Martin </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur labore et dolore magna aliqua</p>
+            </div>
+        </div>
+    </div>
+    
+</body>
 </html>

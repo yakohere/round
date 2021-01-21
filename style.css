@@ -37,7 +37,7 @@ body {
 
 #main nav {
     position: relative;
-    width: 450px;
+    width: 480px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,10 +48,37 @@ body {
     font-size: 30px;
 }
 
-#main nav .link {
-    font-size: 20px;
-    font-weight: 500;
-    text-transform: uppercase;
+#main nav .menu {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#link{
+    display: flex;
+    flex-direction: row;
+}
+
+#link img{
+    width: 19px;
+}
+
+#link p{ 
+    text-transform: uppercase; 
+    margin: 0 5px;
+    color: #000;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.cart a{
+    text-transform: uppercase; 
+    margin: 0 5px;
+    color: #000;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
 }
 
 #main #text {
@@ -66,9 +93,6 @@ body {
 #main #text span {
     margin-left: 150px;
 }
-
-
-
 
 #sidebar {
     grid-column: 5 / -1;
@@ -87,22 +111,51 @@ body {
 }
 
 #sidebar nav .link {
-    font-size: 20px;
-    font-weight: 500;
-    text-transform: uppercase;
+    text-transform: uppercase; 
+    margin: 0 5px;
+    color: #000;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
 }
 
+.view{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5px;
+    color: #DC721f;
+}
 
+.view p{
+    font-size: 15px;
+    
+}
+
+.view i{
+    margin:0 5px;
+}
 #sidebar .social_links {
     display: flex; 
     justify-content: space-between;
+} 
+
+#media_link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
 }
 
+#media_link p{
+    margin: 0 5px;
+}
 
 #sidebar img {  
-    width: 100px;
-}
+    width: 150px;
 
+}
 
 #scroll {
     grid-column: 1 / 2;
@@ -114,14 +167,96 @@ body {
     justify-content: space-between;
 }
 
+#scroll p{
+    color: white;
+    font-size: 20px;
+}
 
+#scroll img{
+    width: 70px;
+}
 
 #clothes {
     grid-column: 2 / 5;
     background-color: #ECE8E3;
+    padding: 70px;
+}
+
+#clothes .container .box h3{
+    color: #DC721f;
+    word-spacing: 5px;
+    line-height: 40px;
+}
+
+#clothes .container .box p{
+font-size: 15px;
+margin-top: 5px;
+color:rgb(112, 112, 112)
+}
+
+.categories{
+    margin-top: 50px;
+    display: flex;
+}
+
+#option{
+    width: 70px;
+    height: 30px;
+    border: 2px solid #828282;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #000;
+    font-weight: bold;
+    outline: none;
+    margin-right: 20px;
+    margin-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cost{
+    font-size: 20px;
+    font-weight: bold;
+    width: 70px;
+    height: 30px;
+    border: 2px solid #DC721f;
+    color: #DC721f;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #feedback {
     grid-column: 5 / -1;
     background-color: #ECE8E3;
+    padding:70px;
+    display: flex;
+    align-items: center;
+}
+
+.report{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+}
+
+.report img{
+    width: 70px;
+    border-radius: 5px;
+}
+
+.avatar{
+    margin: 0 30px;
+}
+
+.avatar h3{
+    font-size: 25px;
+}
+
+.avatar p{
+    font-size: 15px;
+    margin-top: 5px;
+    color:rgb(112, 112, 112)
 }
